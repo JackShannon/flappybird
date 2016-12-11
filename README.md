@@ -1,3 +1,3 @@
 # Flappy Bird
 
-TODO: add playable link to readme
+Play here: https://jackshannon.github.io/flappybird/
