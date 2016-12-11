@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Flappybird</title>
+        <style>
+            body {
+                background-color: #404040;
+            }
+            #sprites {
+                display: none;
+            }
+            #canvas {
+                margin: auto;
+                display: block;
+            }
+            #instructions {
+                color: white;
+                text-align: center;
+                font-family: Helvetica, sans-serif;
+            }
+        </style>
+	</head>
+    <body>
+        <img id='sprites' src='sprites.png'>
+        <canvas id='canvas' width='288' height='512'></canvas>
+        <p id='instructions'>SPACE to flap, R to restart game.</p>
+
+        <script src='flappybird.js'></script>
+        <script src='controller.js'></script>
+        <script src='render.js'></script>
+    </body>
+</html>
